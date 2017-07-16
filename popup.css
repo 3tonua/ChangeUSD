@@ -1,0 +1,99 @@
+* {
+    font-family: Arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #00897B;
+    color: white;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    text-align: left;
+}
+h2 {
+    left: 15px;
+    top: 5px;
+    position: relative;
+    opacity: 0.9;
+}
+.table {
+    background-color: #FAFAFA;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    position: relative;
+
+}
+.top-change {
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #00897B;
+    color: white;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    text-align: left;
+}
+.top-change p {
+    left: 15px;
+    top: 5px;
+    position: relative;
+    opacity: 0.9;
+}
+.info{
+    background-color: #26A69A;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+.info p {
+    font-size: 20px;
+}
+.info span {
+    font-size: 40px;
+    font-weight:bold;
+}
+.change {
+    text-align: center;
+}
+.form {
+    width: 90%;
+    margin: 10px auto;
+    font-size: 18px;
+}
+.form select option {
+    height: 30px;
+    border: none;
+    font-size: 18px;
+    float: right;
+}
+input {
+    width: 232px;
+    height: 27px;
+}
+.button {
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    background-color: #26A69A;
+    border: none;
+    color: white;
+    font-size: 28px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    display: block;
+    margin: 10px auto;
+    border-radius: 3px;
+}
+.button:active {
+    box-shadow: none;
+    
+}
+.result {
+    font-size: 30px;
+}

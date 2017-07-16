@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>U$D Change</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:700|Roboto" rel="stylesheet">
+</head>
+<body>
+
+    <div id="usd" class="table">
+        <div class="top">
+        	<h2>Курс $</h2>
+        </div>
+        
+        <div class="info">
+        	<p>Покупка:</p>
+        	<p><span id="usdpok">запрос...</span></p>
+        </div>
+        <div class="info">
+        	<p>Продажа:</p>
+        	<p><span id="usdpro">запрос...</span></p>
+        </div>
+        
+        <div class="change">
+        	
+        	<div class="top-change">
+        		<p>Обмен</p>
+        	</div>
+        	<div class="form">
+        		<input type="number" id="input">
+	        	<select id="select">
+	        		<option>Выбор</option>
+				    <option value="pok">Покупка</option>
+				    <option value="pro">Продажа</option> 
+				</select>
+	        	<div id="button_res" class="button">Расчет</div>
+	        	<div id="result" class="result"> </div>
+        	</div>
+        	
+        </div>
+    </div>
+   
+<script src="popup.js"></script>
+
+</body>
+</html>
